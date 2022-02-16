@@ -126,6 +126,7 @@ The undersampling procedure is based on: i) selecting the total number of observ
 A caveat to take into account is the significant loss of data: the sample is reduced to approximately 13,000 observations, which could affect the quality of the estimated models.
 
 **ROC Curve Models 2.0**
+
 <img width="415" alt="image" src="https://user-images.githubusercontent.com/56187009/154333176-a329d820-8395-40b4-83f6-8c484ffd590c.png">
 
 * In general, a significant improvement is observed in the predictive capacity of the selected algorithms in explaining the target variable, including in those algorithms that in the first section failed to produce statistically significant estimators.
