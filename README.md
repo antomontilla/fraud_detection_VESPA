@@ -99,16 +99,19 @@ In this first phase, the selected models are applied to the database obtained in
 For computational reasons, a sample of 100,000 observations is drawn. The database is divided into train and test with a criterion of 80-20 and with the seed set at 42 for the validation of the models.
 
 **ROC Curve Models 1.0**
+
 <img width="415" alt="image" src="https://user-images.githubusercontent.com/56187009/154332692-7765e416-4068-4093-87f0-564ba6b3dc5a.png">
 
 The Gaussian Naive Bayes classification model is the one that best explains the variability of the data, with an area on the ROC curve of 63%, followed by the decision tree.
 
 **ROC Curve Gaussian Naive Bayes model**
+
 <img width="357" alt="image" src="https://user-images.githubusercontent.com/56187009/154332855-be05bfb2-2e5c-4a4c-9c30-3e5d72da2813.png">
 
 However, the results reveal a bias in the estimators towards non-fraudulent transactions, which concentrate almost all of the successes of the model.
 
 **Diffusion matrix Gaussian Naïve Bayes model**
+
 <img width="189" alt="image" src="https://user-images.githubusercontent.com/56187009/154333014-10811e00-b667-4905-a52f-b7d1653cd61f.png">
 
 * A possible reason could be the distribution of the target variable in the original dataframe: fraud represents 2% of total transactions.
