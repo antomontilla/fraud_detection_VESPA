@@ -134,9 +134,11 @@ A caveat to take into account is the significant loss of data: the sample is red
 * With 77% area in the ROC curve, the XGBClassifier model estimator has been the one that best fits the data, with a balanced distribution in terms of transaction type.
 
 **ROC Curve XGBClassifier model**
+
 <img width="306" alt="image" src="https://user-images.githubusercontent.com/56187009/154333288-eec28d25-dcca-4951-b190-c166ee1e5fd6.png">
 
 **Diffusion matrix XGBClassifier model**
+
 <img width="207" alt="image" src="https://user-images.githubusercontent.com/56187009/154333328-469433a0-360d-4866-92f7-2af2b0736272.png">
 
 ## Final observations and conclusions
